@@ -28,3 +28,15 @@ In this Repository you can find Jupyter-Notebooks that you should **work on toge
 4. [Function challenge](./Functions/4_Functions_Challenge.ipynb)
 
 
+## Environment
+
+Set up your Environment
+
+
+```BASH
+pyenv local 3.8.5
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install jupyterlab
+```
