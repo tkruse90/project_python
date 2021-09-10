@@ -34,7 +34,7 @@ Set up your Environment
 
 
 ```BASH
-pyenv local 3.8.5
+pyenv local 3.9.4
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
