@@ -13,7 +13,7 @@ In this Repository you can find Jupyter-Notebooks that you should **work on toge
 4. [Loops (while, for)](./Basics/4_Loops.ipynb)
 
 
-**Data Structures in Python Part 2:**
+**Data Structures in Python:**
 1. [Lists](./Data_Structures_in_Python_Part_2/1_Lists.ipynb)
 2. [Sets](./Data_Structures_in_Python_Part_2/2_Sets.ipynb)
 3. [Mutability](./Data_Structures_in_Python_Part_2/3_Mutability.ipynb)
