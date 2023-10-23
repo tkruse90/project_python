@@ -32,6 +32,7 @@ In this Repository you can find Jupyter-Notebooks that you should **work on toge
 
 Set up your Environment
 
+For **`macOS`** :
 ```BASH
 pyenv local 3.11.3
 python -m venv .venv
@@ -39,3 +40,29 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install jupyterlab
 ```
+
+For **`WindowsOS`** : 
+
+open `PowerShell` CLI as an administrator :
+
+```Bash
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install --upgrade pip
+pip install jupyterlab
+```
+
+open `BASH` CLI as an administrator :
+```
+python -m venv .venv
+source .venv/Script/activate
+pip install --upgrade pip
+pip install jupyterlab
+```
+*Note :*
+If you encounter an error when trying to run `pip install --upgrade pip`, it could be because you are missing the -m flag to specify the Python interpreter. To resolve this, consider using the following command:
+
+```Bash
+python.exe -m pip install --upgrade pip
+```
+Adding the -m flag helps ensure that the pip command is executed within the context of the correct Python interpreter, which can resolve certain issues related to package installations and upgrades.
