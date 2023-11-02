@@ -55,7 +55,7 @@ pip install jupyterlab
 open `BASH` CLI as an administrator :
 ```
 python -m venv .venv
-source .venv/Script/activate
+source .venv/Scripts/activate
 pip install --upgrade pip
 pip install jupyterlab
 ```
