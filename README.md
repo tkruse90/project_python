@@ -60,9 +60,8 @@ pip install --upgrade pip
 pip install jupyterlab
 ```
 *Note :*
-If you encounter an error when trying to run `pip install --upgrade pip`, it could be because you are missing the -m flag to specify the Python interpreter. To resolve this, consider using the following command:
+If you encounter an error when trying to run `pip install --upgrade pip`, try using the following command:
 
 ```Bash
 python.exe -m pip install --upgrade pip
 ```
-Adding the -m flag helps ensure that the pip command is executed within the context of the correct Python interpreter, which can resolve certain issues related to package installations and upgrades.
