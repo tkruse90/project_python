@@ -1,3 +1,4 @@
+[![Shipping files](https://github.com/neuefische/ds-python-basics/actions/workflows/workflow-02.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-python-basics/actions/workflows/workflow-02.yml)
 # Python Basics
 
 In this Repository you can find Jupyter-Notebooks that you should **work on together as Pair-Programmers**. The notebooks contain repetitions from the preparation repository, but also new content on the required Python basics. Please work on the notebooks in the order listed below:
