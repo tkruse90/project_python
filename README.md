@@ -15,7 +15,7 @@ Please work on the notebooks in the order listed below:
 
 1. [Numeric Variable Types](./Basics/1_Numeric_Variable_Types.ipynb)
 2. [Strings](./Basics/2_Strings.ipynb)
-3. [If-Statement (if, elif, else)](./Basics/3_If_Statement.ipynb)
+3. [If Statements](./Basics/3_If_Statements.ipynb)
 4. [Loops](./Basics/4_Loops.ipynb)
 
 # Data Structures in Python
