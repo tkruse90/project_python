@@ -1,7 +1,8 @@
 # Install nbcommands if not already installed. More info: https://github.com/vinayak-mehta/nbcommands
 if ! command -v nbgrep &> /dev/null; then
     echo "nbcommands is not installed. Installing..."
-    pip install nbcommands
+    uv tool install nbcommands
+    export PATH="$HOME/.local/bin:$PATH"
 fi
 
 # Specify the path for the output Python file
