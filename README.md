@@ -80,12 +80,40 @@ ds-python-basics/
 ## Environment
 
 Please make sure you **use this repository as a template** in your personal
-GitHub account, then clone your copy to your local machine and synchronize the
-environment with [uv](https://docs.astral.sh/uv/):
+GitHub account before continuing.
+
+### 3. Clone the Repository Locally
+
+Each team member should now clone the repository locally.
+
+On the repository page:
+
+1. Click the green **Code** button
+2. Select the **SSH** tab
+3. Copy the SSH repository URL
+
+Then run:
 
 ```bash
-git clone https://github.com/<your-github-username>/ds-python-basics.git
-cd ds-python-basics
+git clone git@github.com:<your-username>/<repo-name>.git
+```
+
+---
+
+### 4. Navigate into the Repository
+
+```bash
+cd <repo-name>
+```
+
+---
+
+### 5. Install Dependencies
+
+This command installs all dependencies and creates the virtual environment
+(`.venv/`).
+
+```bash
 uv sync
 ```
 
