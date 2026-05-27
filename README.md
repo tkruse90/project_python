@@ -79,46 +79,88 @@ ds-python-basics/
 
 ## Environment
 
-Please make sure you **use this repository as a template** in your personal
-GitHub account before continuing.
+### 1. Create the Repository from the Template
 
-### 3. Clone the Repository Locally
+Click **Use this template** on GitHub.
 
-Each team member should now clone the repository locally.
+When creating the repository:
 
-On the repository page:
+- Set yourself as the **Owner**
+- Choose a repository name
+- Enable **Include all branches**
+- Click **Create repository**
 
-1. Click the green **Code** button
-2. Select the **SSH** tab
-3. Copy the SSH repository URL
+> [!IMPORTANT]
+> If you are working in pairs or groups, only **one person** should complete this step.
 
-Then run:
+---
+
+### 2. Add Collaborators (Pairs/Groups Only)
+
+If you are working with teammates:
+
+1. Open the repository on GitHub
+2. Go to **Settings -> Collaborators**
+3. Add your teammates as collaborators
+4. Share the repository link with your team (they must accept the GitHub invitation)
+
+---
+
+### 3. Clone the Repository
+
+Copy the SSH URL from the **Code** button on GitHub, then run:
 
 ```bash
-git clone git@github.com:<your-username>/<repo-name>.git
+git clone <copied-ssh-url>
 ```
 
 ---
 
-### 4. Navigate into the Repository
+### 4. Move into the Project Folder and Install Dependencies
+
+This installs all dependencies and creates the virtual environment (`.venv/`).
 
 ```bash
-cd <repo-name>
-```
-
----
-
-### 5. Install Dependencies
-
-This command installs all dependencies and creates the virtual environment
-(`.venv/`).
-
-```bash
+cd ds-python-basics
 uv sync
 ```
 
-Open the repository in VS Code, then select the Python environment created by
-`uv sync` as the kernel when opening a notebook.
+---
+
+### 5. Activate the Virtual Environment
+
+#### macOS / Linux
+
+```bash
+source .venv/bin/activate
+```
+
+#### Windows (PowerShell)
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+#### Windows (Git Bash)
+
+```bash
+source .venv/Scripts/activate
+```
+### 6. Open the Notebooks
+
+Recommended: open the VS Code in your current terminal folder.
+
+```bash
+code .
+```
+
+Then open a notebook and select the Python environment created by `uv sync` as the kernel.
+
+Alternatively, you can start JupyterLab in the browser:
+
+```bash
+uv run jupyter lab
+```
 
 ## Learning Objectives
 
