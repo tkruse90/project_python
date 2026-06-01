@@ -72,7 +72,7 @@ Reusable code, arguments, and final practice.
 | File / Folder | Description |
 | ------------- | ----------- |
 | [**Solution**](solution/) | Complete solution versions of the notebooks with worked code and explanations |
-| [**Images**](images/) | Local screenshots used in the VS Code Jupyter notebook introduction |
+| [**Assets**](assets/) | Local screenshots used in the VS Code Jupyter notebook introduction |
 | [**pyproject.toml**](pyproject.toml) | Project configuration and dependency declarations |
 | [**uv.lock**](uv.lock) | Reproducible dependency lock file |
 
