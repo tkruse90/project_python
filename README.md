@@ -149,15 +149,15 @@ Then open a notebook and select the Python environment created by `uv sync` as t
 
 ## References & Further Reading
 
-- [The Python Tutorial](https://docs.python.org/3/tutorial/): Official Python
+- [**The Python Tutorial**](https://docs.python.org/3/tutorial/): Official Python
   introduction covering syntax, data structures, control flow, and functions.
-- [Built-in Functions](https://docs.python.org/3/library/functions.html):
+- [**Built-in Functions**](https://docs.python.org/3/library/functions.html):
   Official reference for functions such as `len`, `range`, `type`, `print`,
   `input`, `zip`, and `sorted`.
-- [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks):
+- [**Jupyter Notebooks in VS Code**](https://code.visualstudio.com/docs/datascience/jupyter-notebooks):
   Official VS Code guide for notebook editing, kernels, variables, and cell
   execution.
-- [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/):
+- [**PEP 8 - Style Guide for Python Code**](https://peps.python.org/pep-0008/):
   Widely used conventions for readable Python code.
-- [uv Documentation](https://docs.astral.sh/uv/): Official documentation for
+- [**uv Documentation**](https://docs.astral.sh/uv/): Official documentation for
   dependency management and reproducible Python environments.
