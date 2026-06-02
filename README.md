@@ -1,78 +1,163 @@
-[![Shipping files](https://github.com/neuefische/ds-python-basics/actions/workflows/workflow-02.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-python-basics/actions/workflows/workflow-02.yml)
 # Python Basics
 
-In this Repository you can find Jupyter-Notebooks that you should **work on together as Pair-Programmers**. 
+This repository is a notebook-based learning path for building a solid
+foundation in [Python](https://docs.python.org/3/tutorial/). The notebooks
+begin with the [VS Code Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+workflow and readable code conventions, then progress through variables,
+strings, control flow, data structures, comprehensions, and reusable functions.
 
-The notebooks contain repetitions from the preparation repository, but also new content on the required Python basics. 
+Follow the notebooks in numerical order. Each notebook is self-contained, but
+the concepts build from basic expressions to a final functions challenge.
 
-Please work on the notebooks in the order listed below:
+## Learning Objectives
 
-1. [Intro to Jupyter Lab](./Intro_to_Jupyter_Lab.ipynb)
+By the end of this repository, you should be able to:
 
-2. [Coding best practices](./Coding_best_practices.ipynb)
+- Work productively with Jupyter notebooks in VS Code.
+- Write readable Python code using clear naming and formatting conventions.
+- Use variables, numeric operators, strings, conditional statements, and loops.
+- Choose and manipulate lists, tuples, dictionaries, and sets.
+- Build concise collection transformations with comprehensions.
+- Define, call, test, and explain reusable Python functions.
 
-# Basics
+## Learning Path
 
-1. [Numeric Variable Types](./Basics/1_Numeric_Variable_Types.ipynb)
-2. [Strings](./Basics/2_Strings.ipynb)
-3. [If Statements](./Basics/3_If_Statements.ipynb)
-4. [Loops](./Basics/4_Loops.ipynb)
+The modules build on each other in order.
 
-# Data Structures in Python
+### 1 - Getting Started
 
-1. [Lists](./Data_Structures_in_Python/1_Lists.ipynb) 
-2. [Tuples](./Data_Structures_in_Python/2_Tuples.ipynb)
-3. [Dictionaries](./Data_Structures_in_Python/3_Dictionaries.ipynb)
-4. [Sets](./Data_Structures_in_Python/4_Sets.ipynb)
-5. [Comprehension](./Data_Structures_in_Python/5_Comprehension.ipynb)
+VS Code notebooks and readable-code conventions.
 
-# Functions
+| File | Description |
+| ---- | ----------- |
+| [**1 - Intro To Jupyter Notebook**](1_Getting_Started/1_Intro_to_Jupyter_Notebook.ipynb) | Open notebooks in VS Code, select a kernel, execute cells, work with Markdown, and use notebook tooling |
+| [**2 - Coding Best Practices**](1_Getting_Started/2_Coding_best_practices.ipynb) | Apply readable naming, whitespace, and formatting practices based on [PEP 8](https://peps.python.org/pep-0008/) |
 
-1. [Introduction to functions](./Functions/1_Introduction_to_Functions.ipynb)
-2. [Function definitions](./Functions/2_Function_Definitions.ipynb)
-3. [Calling Functions](./Functions/3_Calling_Functions.ipynb)
-4. [Function challenge](./Functions/4_Functions_Challenge.ipynb)
+### 2 - Python Basics
 
-# Environment
+Variables, strings, conditions, and loops.
 
-## Set up your Environment
+| File | Description |
+| ---- | ----------- |
+| [**1 - Numeric Variable Types**](2_Basics/1_Numeric_Variable_Types.ipynb) | Work with variables, numeric data types, operators, and type conversion |
+| [**2 - Strings**](2_Basics/2_Strings.ipynb) | Create, combine, index, slice, format, and iterate through text values |
+| [**3 - If Statements**](2_Basics/3_If_Statements.ipynb) | Express conditional logic with `if`, `elif`, `else`, and boolean operators |
+| [**4 - Loops**](2_Basics/4_Loops.ipynb) | Repeat operations with `while` and `for` loops and control execution with `continue` and `break` |
 
-### For **`MacOS`** :
+### 3 - Data Structures
 
-```BASH
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install jupyterlab
+Collections, mutability, and concise transformations.
+
+| File | Description |
+| ---- | ----------- |
+| [**1 - Lists**](3_Data_Structures/1_Lists.ipynb) | Store, modify, index, slice, and iterate through ordered collections |
+| [**2 - Tuples**](3_Data_Structures/2_Tuples.ipynb) | Understand immutable sequences and compare them with mutable lists |
+| [**3 - Dictionaries**](3_Data_Structures/3_Dictionaries.ipynb) | Map keys to values, update dictionaries, and loop through keys, values, and items |
+| [**4 - Sets**](3_Data_Structures/4_Sets.ipynb) | Store unique values and use set operations for membership and comparison |
+| [**5 - Comprehension**](3_Data_Structures/5_Comprehension.ipynb) | Build lists, dictionaries, and tuples concisely from iterables |
+
+### 4 - Functions And Challenge
+
+Reusable code, arguments, and final practice.
+
+| File | Description |
+| ---- | ----------- |
+| [**1 - Introduction To Functions**](4_Functions/1_Introduction_to_Functions.ipynb) | Understand why functions are useful and define simple reusable operations |
+| [**2 - Function Definitions**](4_Functions/2_Function_Definitions.ipynb) | Work with parameters, annotations, defaults, and multiple arguments |
+| [**3 - Calling Functions**](4_Functions/3_Calling_Functions.ipynb) | Use positional and keyword arguments correctly |
+| [**4 - Challenge**](4_Functions/4_Challenge.ipynb) | Apply the unit's concepts in progressive practice tasks |
+
+### Additional Folders and Files
+
+| File / Folder | Description |
+| ------------- | ----------- |
+| [**Solution**](solution/) | Complete solution versions of the notebooks with worked code and explanations |
+| [**Assets**](assets/) | Local screenshots used in the VS Code Jupyter notebook introduction |
+| [**pyproject.toml**](pyproject.toml) | Project configuration and dependency declarations |
+| [**uv.lock**](uv.lock) | Reproducible dependency lock file |
+
+## Setup
+
+> [!NOTE]
+> Throughout these steps, text in angle brackets like `<repo-name>` is a
+> **placeholder**. Replace it including the `< >` brackets with your own
+> value. For example, `cd <repo-name>` becomes `cd my-python-basics-project`.
+
+### 1. Create the Repository from the Template
+
+Click **Use this template** on GitHub.
+
+When creating the repository:
+
+- Set yourself as the **Owner**
+- Choose a repository name
+- Disable **Include all branches**
+- Click **Create repository**
+
+> [!IMPORTANT]
+> If you are working in pairs or groups, only **one person** should complete this step.
+
+---
+
+### 2. Add Collaborators (Pairs/Groups Only)
+
+If you are working with teammates:
+
+1. Open the repository on GitHub
+2. Go to **Settings → Collaborators**
+3. Add your teammates as collaborators
+4. Share the repository link with your team
+
+---
+
+### 3. Clone the Repository
+
+Copy the SSH URL from the **Code** button on GitHub, then run:
+
+```bash
+git clone <copied-ssh-url>
 ```
--------------------------------------------
 
-### For **`WindowsOS`** : 
+The copied SSH URL will look like:
+`git@github.com:<your-username>/<repo-name>.git`.
 
-Open `PowerShell` CLI (as an administrator) :
+---
 
-```Bash
-pyenv local 3.11.3
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install jupyterlab
+### 4. Move into the Project Folder and Install Dependencies
+
+This installs all dependencies and creates a virtual environment in `.venv/`.
+
+```bash
+cd <repo-name>
+uv sync
 ```
 
-Open `Git-Bash` CLI (as an administrator) :
+---
 
-```Bash
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/Scripts/activate
-python -m pip install --upgrade pip
-pip install jupyterlab
+### 5. Open the Notebooks
+
+> [!NOTE]
+> Open VS Code from the project root so it detects the environment created by `uv sync`.
+
+Launch VS Code in the project root:
+
+```bash
+code .
 ```
-### *Note :*
 
-If you encounter an error, try using the following command:
+Then open a notebook and select the Python environment created by `uv sync` as the kernel.
 
-```Bash
-python.exe -m pip install --upgrade pip
-```
+## References & Further Reading
+
+- [**The Python Tutorial**](https://docs.python.org/3/tutorial/): Official Python
+  introduction covering syntax, data structures, control flow, and functions.
+- [**Built-in Functions**](https://docs.python.org/3/library/functions.html):
+  Official reference for functions such as `len`, `range`, `type`, `print`,
+  `input`, `zip`, and `sorted`.
+- [**Jupyter Notebooks in VS Code**](https://code.visualstudio.com/docs/datascience/jupyter-notebooks):
+  Official VS Code guide for notebook editing, kernels, variables, and cell
+  execution.
+- [**PEP 8 - Style Guide for Python Code**](https://peps.python.org/pep-0008/):
+  Widely used conventions for readable Python code.
+- [**uv Documentation**](https://docs.astral.sh/uv/): Official documentation for
+  dependency management and reproducible Python environments.
